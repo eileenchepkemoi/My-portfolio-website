@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, .5);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #F2F2F2;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 600px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.about img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.about li i {
+    margin-right: 10px;
+}
+
+.about a {
+    text-decoration: none;
+    color: #000;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #D9E6F2;
+}
+
+.contacts h2 {
+    margin-bottom: 20px;
+}
+
+.contacts div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contacts i {
+    margin-bottom: 10px;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contacts form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contacts label {
+    margin-bottom: 5px;
+}
+
+.contacts input[type="text"],
+.contacts input[type="email"],
+.contacts textarea {
+    max-width: 50%;
+    min-width: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+@media (max-width: 800px) {
+    .contacts input[type="text"],
+    .contacts input[type="email"],
+    .contacts textarea {
+        max-width: 90%;
+        min-width: 90%;
+        padding: 5px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+    }
+}
+
+.contacts button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
